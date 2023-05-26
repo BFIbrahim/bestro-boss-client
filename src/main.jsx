@@ -11,7 +11,7 @@ import {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='max-w-6xl mx-auto'>
+    <div className='max-w-4xl mx-auto bg-gray-50 bg-opacity-80'>
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>,
