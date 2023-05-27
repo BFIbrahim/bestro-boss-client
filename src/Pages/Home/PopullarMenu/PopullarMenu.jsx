@@ -29,7 +29,7 @@ const PopullarMenu = () => {
                 }
             </div>
             <div className=" w-40 mx-auto mb-10">
-                <button style={{borderBottom: '2px solid black',}} className='btn text-center bg-white border-none text-black uppercase rounded-md'>View Fill Menu</button>
+                <button style={{borderBottom: '2px solid black',}} className='btn text-center bg-white border-none text-black uppercase rounded-md'>View Full Menu</button>
             </div>
 
         </section>

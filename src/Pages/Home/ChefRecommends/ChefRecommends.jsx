@@ -10,8 +10,8 @@ const ChefRecommends = () => {
                 subheading="Should Try"
             ></SectionTitle>
 
-            <div className='flex justify-between'>
-                <div className='w-72 bg-[#F3F3F3] mb-10'>
+            <div className='md:flex justify-between'>
+                <div className='md:w-72 bg-[#F3F3F3] mb-10'>
                     <img className='w-72 h-72' src={img} alt="" />
                     <div className='p-4 text-center'>
                         <h3 className='text-2xl font-semibold mb-3'>Caeser Salad</h3>
@@ -20,7 +20,7 @@ const ChefRecommends = () => {
                     </div>
                 </div>
 
-                <div className='w-72 bg-[#F3F3F3] mb-10'>
+                <div className='md:w-72 bg-[#F3F3F3] mb-10'>
                     <img className='w-72 h-72' src={img} alt="" />
                     <div className='p-4 text-center'>
                         <h3 className='text-2xl font-semibold mb-3'>Caeser Salad</h3>
@@ -29,7 +29,7 @@ const ChefRecommends = () => {
                     </div>
                 </div>
 
-                <div className='w-72 bg-[#F3F3F3] mb-10'>
+                <div className='md:w-72 bg-[#F3F3F3] mb-10'>
                     <img className='w-72 h-72' src={img} alt="" />
                     <div className='p-4 text-center'>
                         <h3 className='text-2xl font-semibold mb-3'>Caeser Salad</h3>
