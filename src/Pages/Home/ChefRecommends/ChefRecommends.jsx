@@ -10,15 +10,31 @@ const ChefRecommends = () => {
                 subheading="Should Try"
             ></SectionTitle>
 
-            <div>
-                <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src={img} alt="" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Buy Now</button>
-                        </div>
+            <div className='flex justify-between'>
+                <div className='w-72 bg-[#F3F3F3] mb-10'>
+                    <img className='w-72 h-72' src={img} alt="" />
+                    <div className='p-4 text-center'>
+                        <h3 className='text-2xl font-semibold mb-3'>Caeser Salad</h3>
+                        <p>Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                        <button style={{ borderBottom: '2px solid #BB8506' }} className='btn rounded-md border-none text-[#BB8506] uppercase bg-[#F3F3F3]'>Add to chart</button>
+                    </div>
+                </div>
+
+                <div className='w-72 bg-[#F3F3F3] mb-10'>
+                    <img className='w-72 h-72' src={img} alt="" />
+                    <div className='p-4 text-center'>
+                        <h3 className='text-2xl font-semibold mb-3'>Caeser Salad</h3>
+                        <p>Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                        <button style={{ borderBottom: '2px solid #BB8506' }} className='btn rounded-md border-none text-[#BB8506] uppercase bg-[#F3F3F3]'>Add to chart</button>
+                    </div>
+                </div>
+
+                <div className='w-72 bg-[#F3F3F3] mb-10'>
+                    <img className='w-72 h-72' src={img} alt="" />
+                    <div className='p-4 text-center'>
+                        <h3 className='text-2xl font-semibold mb-3'>Caeser Salad</h3>
+                        <p>Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                        <button style={{ borderBottom: '2px solid #BB8506' }} className='btn rounded-md border-none text-[#BB8506] uppercase bg-[#F3F3F3]'>Add to chart</button>
                     </div>
                 </div>
             </div>
