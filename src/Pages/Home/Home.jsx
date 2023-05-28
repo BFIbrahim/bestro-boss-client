@@ -7,10 +7,18 @@ import HomeContact from './Home Contact/HomeContact';
 import ChefRecommends from './ChefRecommends/ChefRecommends';
 import Featured from './Featured/Featured';
 import Testimonial from './Testimonial/Testimonial';
+import { Helmet } from 'react-helmet-async';
+
 
 const Home = () => {
     return (
         <div>
+
+            <Helmet>
+                <title>Home | BF Resturant</title>
+                <link rel="canonical" href="https://www.tacobell.com/" />
+            </Helmet>
+
             <Banner></Banner>
             <Category></Category>
             <ChefService></ChefService>
