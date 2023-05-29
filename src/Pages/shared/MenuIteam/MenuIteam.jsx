@@ -7,8 +7,8 @@ const MenuIteam = ({ item }) => {
     return (
 
         <div>
-            <div className='flex space-x-4'>
-                <img style={{ borderRadius: '0 200px 200px 200px' }} className='w-[100px]' src={image} alt="" />
+            <div className='flex mb-5 space-x-4'>
+                <img style={{ borderRadius: '0 200px 200px 200px' }} className='w-[100px] h-[100px]' src={image} alt="" />
                 <div className=''>
                     <h3 className='uppercase'>{name}-----------</h3>
                     <p>{recipe}</p>

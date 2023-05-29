@@ -1,17 +1,12 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "../../../Components/Section Title/SectionTitle";
 import MenuIteam from "../../shared/MenuIteam/MenuIteam";
+import useMenu from "../../../Hooks/useMenu";
+import MenuCategory from "../../Menu/MenuCategory.jsx/MenuCategory";
 
 const PopullarMenu = () => {
-    const [menu, setMenu] = useState([])
-    useEffect(() => {
-        fetch('menu.json')
-            .then(res => res.json())
-            .then(data => {
-                const popullarIteam = data.filter(item => item.category === "popular")
-                setMenu(popullarIteam)
-            })
-    }, [])
+    const [menu] = useMenu();
+    const popullar = menu.filter(item => item.category === 'popular')
 
     return (
         <section>
@@ -20,14 +15,16 @@ const PopullarMenu = () => {
                 heading={"FROM OUR MENU"}
             ></SectionTitle>
 
-            <div className="grid md:grid-cols-2 gap-5 mb-10">
+            {/* <div className="grid md:grid-cols-2 gap-5 mb-10">
                 {
-                    menu.map(item => <MenuIteam
+                    popullar.map(item => <MenuIteam
                         key={item._id}
                         item={item}
                     ></MenuIteam>)
                 }
-            </div>
+            </div> */}
+
+            <MenuCategory items={popullar}></MenuCategory>
             <div className=" w-40 mx-auto mb-10">
                 <button style={{borderBottom: '2px solid black',}} className='btn text-center bg-white border-none text-black uppercase rounded-md'>View Full Menu</button>
             </div>
