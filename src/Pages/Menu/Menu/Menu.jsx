@@ -43,7 +43,7 @@ const Menu = () => {
             {/* Desserts Item */}
             <MenuCategory
                 items={desserts}
-                coverTitle={"DESSERTS"}
+                coverTitle={"desserts"}
                 CoverImage={img2}
                 coverdetails={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             ></MenuCategory>
@@ -51,7 +51,7 @@ const Menu = () => {
             {/* Pizzas Item Secttion */}
             <MenuCategory 
              items={pizzas}
-             coverTitle={"Pizzas"}
+             coverTitle={"pizzas"}
              coverdetails={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
              CoverImage={img3}
             ></MenuCategory>
@@ -61,7 +61,7 @@ const Menu = () => {
 
             <MenuCategory 
              items={salads}
-             coverTitle={"Salads"}
+             coverTitle={"salads"}
              coverdetails={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
              CoverImage={img4}
             ></MenuCategory>
@@ -69,7 +69,7 @@ const Menu = () => {
             {/* Soups Item Section */}
             <MenuCategory 
              items={soups}
-             coverTitle={"Soups"}
+             coverTitle={"soups"}
              coverdetails={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
              CoverImage={img5}
             ></MenuCategory>
